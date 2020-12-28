@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    tools {
+               maven 'apache-maven-3.6.3'
+    }
+    stages {
+        stage("git clone"){
+            steps{
+                git 'https://github.com/rtulaila/NewSearch.git'
+            }
+        }
+        stage("compile"){
+            steps{
+                
+                sh 'mvn clean compile'
+            }
+        }
+        stage("test"){
+            steps{
+                
+                sh 'mvn test'
+            }
+        }
+        
+        stage("Build code"){
+            steps{
+                
+                sh 'mvn install'
+            }
+        }
+       
+    }
+}
