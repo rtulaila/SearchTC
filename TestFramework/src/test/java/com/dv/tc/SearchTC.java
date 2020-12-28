@@ -12,8 +12,8 @@ public class SearchTC {
 	public void search() {
 			// TODO Auto-generated method stub
 	    
-		 System.setProperty("webdriver.chrome.driver","C:\\Users\\Ramesh\\Downloads\\chromedriver\\chromedriver.exe");
-			 
+		 System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//Drivers//chromedriver.exe");
+				 
 		 WebDriver driver=new ChromeDriver();
 		 driver.get("https://www.google.ca/");
 		  	 
