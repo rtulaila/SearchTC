@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9888" started-at="2020-12-27T10:12:43 EST" finished-at="2020-12-27T10:12:53 EST">
+  <suite name="Suite" duration-ms="9998" started-at="2020-12-28T10:39:56 EST" finished-at="2020-12-28T10:40:06 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9888" started-at="2020-12-27T10:12:43 EST" finished-at="2020-12-27T10:12:53 EST">
+    <test name="Test" duration-ms="9998" started-at="2020-12-28T10:39:56 EST" finished-at="2020-12-28T10:40:06 EST">
       <class name="com.dv.tc.SearchTC">
-        <test-method status="PASS" signature="search()[pri:0, instance:com.dv.tc.SearchTC@7fac631b]" name="search" duration-ms="9793" started-at="2020-12-27T10:12:43 EST" finished-at="2020-12-27T10:12:53 EST">
+        <test-method status="PASS" signature="search()[pri:0, instance:com.dv.tc.SearchTC@5c5a1b69]" name="search" duration-ms="9869" started-at="2020-12-28T10:39:56 EST" finished-at="2020-12-28T10:40:06 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
       </class> <!-- com.dv.tc.SearchTC -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
