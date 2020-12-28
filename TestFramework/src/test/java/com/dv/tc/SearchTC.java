@@ -21,7 +21,8 @@ public class SearchTC {
 		 
 		 System.out.println("Test Passed");
 		 System.out.println("Able to search for SELENIUM");
-		 
+		 System.out.println("                            ");
+		 System.out.println("                            ");
 		 driver.close();
 		 
 		}
